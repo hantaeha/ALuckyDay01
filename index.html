@@ -20,8 +20,12 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
-		<audio autoplay loop>
+		<!--<audio autoplay loop>
 				 <source src="https://docs.google.com/uc?export=open&id=1D-GELgXVGl2st1XFng2oSy0TvYL-FiRb" type='audio/mp3' />
+		</audio>-->
+		<iframe src="https://docs.google.com/uc?export=open&id=1D-GELgXVGl2st1XFng2oSy0TvYL-FiRb" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+		<audio autoplay loop>
+   		<source src="https://docs.google.com/uc?export=open&id=1D-GELgXVGl2st1XFng2oSy0TvYL-FiRb" type="audio/mp3">
 		</audio>
 	</head>
 	<body>
