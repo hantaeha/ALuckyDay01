@@ -44,7 +44,7 @@
 			// The "normal" size of the presentation, aspect ratio will be preserved
 			// when the presentation is scaled to fit different resolutions
 			width: 960,
-			height: 700,
+			height: 800,
 
 			// Factor of the display size that should remain empty around the content
 			margin: 0.04,
@@ -61,7 +61,7 @@
 			controlsTutorial: true,
 
 			// Determines where controls appear, "edges" or "bottom-right"
-			controlsLayout: 'bottom-right',
+			controlsLayout: 'edges',
 
 			// Visibility rule for backwards navigation arrows; "faded", "hidden"
 			// or "visible"
@@ -123,7 +123,7 @@
 			touch: true,
 
 			// Loop the presentation
-			loop: false,
+			loop: true,
 
 			// Change the presentation direction to be RTL
 			rtl: false,
@@ -236,7 +236,7 @@
 			transition: 'slide', // none/fade/slide/convex/concave/zoom
 
 			// Transition speed
-			transitionSpeed: 'default', // default/fast/slow
+			transitionSpeed: 'fast', // default/fast/slow
 
 			// Transition style for full page slide backgrounds
 			backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
